@@ -35,6 +35,22 @@
   </div>
 
   <div role="main">
-    
+    <div class="portada">
+      <div>
+        <h1 class="titulo-principal">Gestión de Préstamos de Material</h1>
+        <p class="subtitulo">Bienvenido al sistema de gestión de préstamos de material. Aquí podrás solicitar, devolver y consultar
+          el estado de los materiales disponibles.</p>
+        <label for="q" class="solo-lectores">Buscar Materiales</label>
+        <input class="buscador" id="q" type="search" placeholder="Ej. Resistencia 330k, multímetro, cable de red" autocomplete="off">
+        <div class="atajos" id="quick" aria-label="Busquedas rapidas"></div>
+    </div>
   </div>
+
+  <div class="galeria">
+    <div class="galeria-imagen" id="stage"></div>
+    <div class="galeria-miniaturas" id="thumbs" role="group" aria-label="Galería de Imágenes"></div>
+    <div class="galeria-pie" id="galCap" aria-live="polite"></div>
+  </div>
+
+  
 </html>
