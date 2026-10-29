@@ -11,12 +11,30 @@
     wght@400;500&family=Schibsted+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"> 
 </head>
+
+<!-- Encabezado -->
 <body>
-  <div class="menu">
-    <a>Inicio</a>
-    <a>Registro</a>
-    <a>Reportar un Problema</a>
+
+  <div class="encabezado" role="banner">
+    <div class="marca">
+     <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+      <rect width="34" height="34" rx="9" fill="var(--pcb)"/>
+      <path d="M5 17h5l2-6 4 12 4-12 2 6h7" fill="none" stroke="var(--pcb-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    
+      <div>
+        Almacen de Prestamos
+        <div class="marca-subtitulo">Ingeniería en Telemática, CUSur</div>
+      </div>
     </div>
+
+  <div class="menu">
+    <span class="sesion" id="who" hidden></span>
+    <button class="boton boton-secundario" id="btn-Report" type="button">Reportar un Problema</button>
+    <button class="boton boton-principal" id="btn-Login" type="button">Iniciar Sesión</button>
   </div>
-</body>
+  </div>
+
+  <div role="main">
+    
+  </div>
 </html>
